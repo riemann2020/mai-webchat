@@ -2,7 +2,6 @@
 
 <div align="center">
 
-[![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/moeakwak/chatgpt-web-share?label=container&logo=docker)](https://github.com/moeakwak/chatgpt-web-share/pkgs/container/chatgpt-web-share)
 [![Github Workflow Status](https://img.shields.io/github/actions/workflow/status/moeakwak/chatgpt-web-share/docker-image.yml?label=build)](https://github.com/moeakwak/chatgpt-web-share/actions)
 [![License](https://img.shields.io/github/license/moeakwak/chatgpt-web-share)](https://github.com/moeakwak/chatgpt-web-share/blob/main/LICENSE)
 
@@ -12,13 +11,12 @@ Used for sharing one ChatGPT account among friends.
 
 </div>
 
-![screenshot](docs/screenshot.en.jpeg)
 
 This readme was mainly translated by ChatGPT.
 
 ## About the project
 
-ChatGPT Web Share (CWS for short) is designed to share a ChatGPT Plus account with multiple users. CWS:
+Mai WebChat is designed to share a ChatGPT Plus account with multiple users. CWS:
 - is a front-end and back-end separated application
 - is used to share a ChatGPT account, not the official API
 - supports user and conversation managements
@@ -47,15 +45,9 @@ ChatGPT Web Share (CWS for short) is designed to share a ChatGPT Plus account wi
 
 ## Deploy Guide
 
-Please see the WIKI: [English Guide](https://github.com/moeakwak/chatgpt-web-share/wiki/English-Guide)
-
 ## Usage Statement
 
 ### Information Collection and Privacy Statement
-
-<del>Starting from version v0.2.16, this project uses Sentry to collect error information. By using this project, you agree to the Sentry privacy policy. Any anonymous information collected through Sentry will only be used for development and debugging purposes. </del>We will never collect or store any of your private data, like username, password, access token, etc.
-
-From v0.3.5, Sentry is not used anymore.
 
 ### Risk Statement
 
