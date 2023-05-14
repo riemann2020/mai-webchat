@@ -1,4 +1,4 @@
-<h1 align="center">ChatGPT Web Share</h1>
+<h1 align="center">Mai WebChat Bot</h1>
 
 <div align="center">
 
@@ -8,8 +8,7 @@
 
 **>>> [English Readme](README.en.md) <<<**
 
-共享一个 ChatGPT 账号给多用户同时使用的 web 应用，使用 FastAPI + Vue3 开发。可用于朋友之间共享或合租 ChatGPT 账号。支持 ChatGPT Plus / 设置对话模型 / 用户请求限制等功能。支持使用 GPT-4！
-
+基于[chatgpt-web-share](https://github.com/moeakwak/chatgpt-web-share)进行二次开发，在原有功能基础上，增加语音播放消息。更多新功能正在开发中。
 </div>
 
 ![screenshot](docs/screenshot.jpeg)
