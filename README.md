@@ -2,7 +2,6 @@
 
 <div align="center">
 
-[![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/moeakwak/chatgpt-web-share?label=container&logo=docker)](https://github.com/moeakwak/chatgpt-web-share/pkgs/container/chatgpt-web-share)
 [![Github Workflow Status](https://img.shields.io/github/actions/workflow/status/moeakwak/chatgpt-web-share/docker-image.yml?label=build)](https://github.com/moeakwak/chatgpt-web-share/actions)
 [![License](https://img.shields.io/github/license/moeakwak/chatgpt-web-share)](https://github.com/moeakwak/chatgpt-web-share/blob/main/LICENSE)
 
@@ -11,17 +10,11 @@
 基于[chatgpt-web-share](https://github.com/moeakwak/chatgpt-web-share)进行二次开发，在原有功能基础上，增加语音播放消息。更多新功能正在开发中。
 </div>
 
-![screenshot](docs/screenshot.jpeg)
-
-![screenshot_admin](docs/screenshot_admin.jpeg)
-
-通知/讨论 Channel：https://t.me/chatgptwebshare
 
 ## 关于项目
 
-ChatGPT Web Share (简称 CWS) 的目的是「共享」一个 ChatGPT Plus 账号给多个用户。CWS 是：
+个人订制的Web ChatGPT：
 - 前后端分离的应用，因此你需要自行部署后端到一个稳定且 IP 可靠的服务器上
-- 用于共享 ChatGPT 账号，而不是官方 API
 - 支持用户管理，并支持设置各用户的权限和对话次数
 - 优先支持 ChatGPT Plus 账号
 
@@ -49,15 +42,12 @@ ChatGPT Web Share (简称 CWS) 的目的是「共享」一个 ChatGPT Plus 账�
 
 ## 部署指南
 
-参见 WIKI：[中文指南](https://github.com/moeakwak/chatgpt-web-share/wiki/%E4%B8%AD%E6%96%87%E6%8C%87%E5%8D%97)
+
 
 ## 声明
 
 ### 调试信息收集和隐私声明
 
-<del>从版本 v0.2.16 开始，本项目使用 Sentry 来收集错误信息。使用本项目即表示您同意 Sentry 的隐私政策。通过 Sentry 收集的任何匿名信息仅用于开发和调试目的。</del>我们永远不会收集或存储您的私人数据，如用户名、密码、access token 等。
-
-目前，自 v0.3.5 版本后已不再通过 Sentry 收集错误信息。
 
 ### 风险声明
 
